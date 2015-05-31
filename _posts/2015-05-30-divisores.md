@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Divisores"
-date:   2015-05-30 17:48:35
 categories: cep2014
 ---
 
