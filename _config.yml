@@ -1,0 +1,10 @@
+# Site settings
+title: Problemas CEP UCSP
+email: raul.gallegos@ucsp.edu.pe
+description: > # this means to ignore newlines until "baseurl:"
+  Base de Datos de Problemas para el Concurso Escolar de Programación UCSP,
+  para entrenamiento de los alumnos y tutores.
+url: "http://cs.ucsp.edu.pe/cep2014/resources" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
