@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Divisores"
-categories: cep2014
+categories: cep2014 easy
 ---
 
 
@@ -20,24 +20,16 @@ Por cada caso debes imprimir una línea con la respuesta.
 ## Ejemplo
 
 ### Entrada
-$$
-\begin{eqnarray}
-5\\
-10\\
-20\\
-30\\
-22\\
-59\\
-\end{eqnarray}
-$$
+5  
+10  
+20  
+30  
+22  
+59  
 
 ### Salida
-$$
-\begin{eqnarray}
-5\\
-9\\
-14\\
-10\\
-27\\
-\end{eqnarray}
-$$
+5  
+9  
+14  
+10  
+27  
