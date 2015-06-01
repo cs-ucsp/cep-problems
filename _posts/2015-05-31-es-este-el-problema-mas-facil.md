@@ -1,19 +1,29 @@
+---
+layout: post
+title:  "Es este el problema más fácil"
+category: easy
+---
+
+
 ## Problema
 
-Un triángulo es una figura geométrica con tres lados positivos. Sin embargo, cualquiera de los tres lados dados no necesariamente forman un triángulo. Los tres lados deben formar una región cerrada. Los triángulos se clasifican en función de los valores de los lados. En este problema se le requiere para determinar el tipo de triángulo.
+Un triángulo es una figura geométrica con tres lados positivos. Sin embargo, cualquiera de los tres lados dados no necesariamente forman un triángulo. Los tres lados deben formar una región cerrada. Los triángulos se clasifican en función de los valores de los lados. En este problema se les requiere determinar el tipo de triángulo.
 
 ### Entrada
 
-La primera línea de entrada contendrá un número entero positivo T < 20, donde T denota el número de casos de prueba. Cada una de las siguientes líneas T contendrá tres enteros de 32 bits con signo.
+La primera línea de entrada contendrá un número entero positivo $$T < 20$$, donde T denota el número de casos de prueba. Cada una de las siguientes líneas _T_ contendrá tres enteros de 32 bits con signo.
 
 ### Salida
-Para cada caso de entrada habrá una línea de salida. Se formatea como: Case x: Tipo de triángulo.
-Donde x denota el número de caso está procesando y el tipo de triángulo es el tipo de triángulo. Tipo triángulo será uno de los siguientes, dependiendo de los valores de los tres lados:
+Para cada caso de entrada habrá una línea de salida. Se formatea como:
 
-- Invalid - Los tres lados no pueden formar un triángulo
-- Equilateral - Los tres lados del triángulo son iguales.
-- Isosceles - Exactamente dos de los lados de un triángulo son iguales.
-- Scalene - Sin par de lados iguales.
+    Case x: "Tipo de triángulo".
+
+Donde _x_ denota el número de caso y el _Tipo de triángulo_ será uno de los siguientes valores:
+
+- `Invalid` - Los tres lados no pueden formar un triángulo
+- `Equilateral` - Los tres lados del triángulo son iguales.
+- `Isosceles` - Exactamente dos de los lados de un triángulo son iguales.
+- `Scalene` - Sin par de lados iguales.
 
 ## Ejemplo
 
@@ -30,7 +40,7 @@ Donde x denota el número de caso está procesando y el tipo de triángulo es el
 
 ## Salida
 
-Case 1: Invalid
-Case 2: Equilateral
-Case 3: Isosceles
-Case 4: Scalene
+Case 1: Invalid  
+Case 2: Equilateral  
+Case 3: Isosceles  
+Case 4: Scalene  
