@@ -13,3 +13,17 @@ No olviden poner lo siguiente en la cabecera del archivo:
     ---
 
 El archivo está en formato `markdown`, y también soporta fórmulas matemáticas con formato `latex` (ver los anteriores posts como ejemplo).
+
+
+### Correr proyecto localmente
+
+Este es un proyecto en jekyll, asi que necesitar tener [jekyll](http://jekyllrb.com) instalado.
+
+
+    git clone git@github.com:cs-ucsp/cep-problems.git
+    cd cep-problems
+    jekyll serve
+
+Luego te especificará la dirección donde esta corriendo, normalmente es en:
+
+    http://localhost:4000
