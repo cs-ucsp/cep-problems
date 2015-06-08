@@ -11,7 +11,7 @@ de múltiplos de 5 o 3 que hay desde  1 hasta _n_.
 ### Entrada
 
 La primera línea contiene un entero _t_, el número de casos de prueba.
-Cada caso es descrito por un entero _n_ $$(1 \leq n \leq 10^7)$$
+Cada caso es descrito por un entero _n_ $(1 \leq n \leq 10^7)$
 
 ### Salida
 
