@@ -29,6 +29,9 @@ Si alguien tiene alguno de los anteriores, puede seguir el curso sin problemas, 
 
 En cada clase que daremos, por favor abre el anterior programa (**Quincy**) para que estes listo para escribir los programas que se irá enseñando.
 
+<br />  
+<br />  
+
 ### Linux y Mac OSX
 
 Si usas Windows sigue al siguiente capítulo. No hay necesidad de instalación extra en Linux o Mac OSX.
@@ -161,9 +164,7 @@ Los operadores de comparación son los siguientes:
 5 < 5     // false
 ```
 
-Estos operadores no son solo para números, y pueden ser utilizados para todos los _tipos_ antes mencionados.
-
-Ten mucho cuidado de no confundir el operador de igualdad `==` con el operador de asignación `=`.
+Estos operadores no son solo para números, y pueden ser utilizados para todos los _tipos_ antes mencionados. Ten mucho cuidado de no confundir el operador de igualdad `==` con el operador de asignación `=`.
 
 #### Operadores Lógicos.
 
@@ -180,7 +181,7 @@ Ten mucho cuidado de no confundir el operador de igualdad `==` con el operador d
 - `&&`: operador lógico de `y`, sigue la siguiente tabla de verdad:
 
 | a        | b           | a && b |
-| ------------- |:-------------:| -----:|
+| ------------- |:------:| :-----: |
 | true      | true | true |
 | true      | false | false |
 | false      | true | false |
@@ -189,7 +190,7 @@ Ten mucho cuidado de no confundir el operador de igualdad `==` con el operador d
 - `||`: operador lógigico de `o`, sigue la siguiente tabla de verdad:
 
 | a        | b           | a &#124;&#124; b |
-| ------------- |:-------------:| -----:|
+| ------------- |:---------:| :-----: |
 | true      | true | true |
 | true      | false | true |
 | false      | true | true |
@@ -219,6 +220,8 @@ if (x < 100){
 ```
 
 En el ejemplo anterior, el mensaje `"x es menor que 100"` es impreso si `x < 100` es `true`, lo que quiere decir que la variable `x` debe contener un valor menor que 100.
+
+<br />  
 
 También se puede utilizar la siguiente sintaxis para especificar que hacer si una `condición` **NO** se satisface. usando la palabra `else`:
 
