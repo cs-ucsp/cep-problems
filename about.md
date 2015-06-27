@@ -4,4 +4,6 @@ title: Acerca de
 permalink: /about/
 ---
 
-Página dirigida principalmente para la recolección de problemas que enseñar a los alumnos principiantes como entrenamiento para el Concurso Escolar de Programación UCSP.
+El [Capítulo Estudiantil ACM UCSP](http://fb.com/ACMUCSP) pone a tu disposición una colección de problemas sencillos de
+programación.
+Con ellos podrás complementar tu preparación con miras al [Concurso Escolar de Programación](http://cs.ucsp.edu.pe/cep2015).  
