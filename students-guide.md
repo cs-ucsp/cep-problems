@@ -75,19 +75,25 @@ Los tipos siempre van antes de las **variable**s.
 
 ###### Ejemplo 1:
 
-    int variable1 = 542;
+``` cpp
+int variable1 = 542;
+```
 
 En el ejemplo anterior hemos creado una _variable_ llamada `variable1`, del tipo `int` con el valor `542`.
 
 ###### Ejemplo 2:
 
-    string variable2 = "mi frase favorita";
+``` cpp
+string variable2 = "mi frase favorita";
+```
 
 En el ejemplo anterior hemos creado una _variable_ llamada `variable2` del tipo `string` con el valor `"mi frase favorita"`.
 
 ###### Ejemplo 3:
 
-    bool variable3 = true;
+``` cpp
+bool variable3 = true;
+```
 
 En el ejemplo anterior hemos creado una _variable_ llamada `variable3` del tipo `bool` con el valor `true`.
 
@@ -119,13 +125,17 @@ Asigna un `valor` a una `variable`. Se utiliza el signo `=`.
 
 ###### Ejemplo
 
-  int x=5;
+``` cpp
+int x=5;
+```
 
 El anterior ejemplo asigna el valor entero `5` a la variable `x`. La asignación siempre se ejecuta de derecha a izquierda y nunca de otra manera.
 
-    int y = 5;
-    int x = y;
-    int y = 2;
+``` cpp
+int y = 5;
+int x = y;
+int y = 2;
+```
 
 La variable `x` contiene el valor de `5` ya que `y` fue asignado a `x`. Al terminar el anterior ejemplo, `y` contains the value of `2`.
 
@@ -138,7 +148,10 @@ La variable `x` contiene el valor de `5` ya que `y` fue asignado a `x`. Al termi
 - `%`: módulo o resto (de una división).
 
 ###### Ejemplo
-    int x = 11 % 5;
+
+``` cpp
+int x = 11 % 5;
+```
 
 En el ejemplo anterior, la variable `x` contiene el valor de `1` (el resto de la división entre `11` y `5`).
 
@@ -148,6 +161,7 @@ Dos expresiones pueden ser comparadas usando estos operadores. Por ejemplo para 
 El resultado de tal operación es `true` o `false` (un valor `bool`).
 
 Los operadores de comparación son los siguientes:
+
 - `==`: igual a
 - `!=`: diferente a
 - `<`: menor que
@@ -205,18 +219,18 @@ Utilizado para determinar si algún bloque de código debe ser ejecutado.
 Se utiliza la siguiente sintaxis:
 
 ``` cpp
-if (condición){
+if (condicion) {
   bloque
 }
 ```
 
-Donde, `bloque` puede ser muchas líneas de código y `condición` es una expresión que devuelve una `bool`. Si `condición` es `true`, entonces `bloque` es ejecutado. Si `condición` es `false`, entonces `bloque` no es ejecutado.
+Donde, `bloque` puede ser muchas líneas de código y `condición` es una expresión que devuelve un `bool`. Si `condición` es `true`, entonces `bloque` es ejecutado. Si `condición` es `false`, entonces `bloque` no es ejecutado.
 
 ###### Ejemplo
 
 ``` cpp
-if (x < 100){
-  cout<<"x es menor que 100"<<endl;
+if (x < 100) {
+  cout << "x es menor que 100" << endl;
 }
 ```
 
@@ -227,9 +241,9 @@ En el ejemplo anterior, el mensaje `"x es menor que 100"` es impreso si `x < 100
 También se puede utilizar la siguiente sintaxis para especificar que hacer si una `condición` **NO** se satisface. usando la palabra `else`:
 
 ``` cpp
-if (condición){
+if (condicion) {
   bloque1
-}else{
+} else {
   bloque2
 }
 ```
@@ -239,9 +253,9 @@ Donde `bloque1` es ejecutado si `condición` es `true`, y `bloque2` es ejecutado
 
 ###### Ejemplo
 ``` cpp
-if (x < 100){
+if (x < 100) {
   cout<<"x es menor a 100"<<endl;
-}else{
+} else {
   cout<<"x es mayor o igual a 100"<<endl;
 }
 ```
@@ -254,7 +268,7 @@ Los bucles repiten algún bloque de código por el número de veces que se indiq
 - `while`: Su sintaxis es la siguiente:
 
 ``` cpp
-while(condición){
+while (condicion) {
   bloque
 }
 ```
@@ -264,8 +278,8 @@ Donde `bloque` es ejecutado mientras la `condición` sea `true`.
 
 ``` cpp
 int n = 0;
-while(n<5){
-  cout<<"n es "<<n<<endl;
+while (n < 5) {
+  cout << "n es " << n << endl;
   n = n + 1;
 }
 ```
@@ -285,7 +299,7 @@ Y luego terminará, ya que la variable `n` fue creciendo desde `0` hasta llegar 
 - `for`: Su sintaxis es la siguiente:
 
 ``` cpp
-for(inicialización; condición; incremento){
+for (inicializacion; condicion; incremento) {
   bloque
 }
 ```
@@ -294,8 +308,8 @@ Muy parecido a `while`, el bucle de `for` repite el código de `bloque` mientras
 ###### Ejemplo
 
 ``` cpp
-for(int n=0; n<5; n++){
-  cout<<" n es "<<n<<endl;
+for(int n = 0; n < 5; n++) {
+  cout << " n es " << n <<endl;
 }
 ```
 
