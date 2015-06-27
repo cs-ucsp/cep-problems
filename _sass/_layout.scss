@@ -233,4 +233,12 @@
             font-size: 18px;
         }
     }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    table, th, td {
+        border: 1px solid $grey-color-light;
+    }
 }
