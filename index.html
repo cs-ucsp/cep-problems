@@ -4,12 +4,17 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Problemas</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="categories-list post-meta">
+          {% for category in post.categories %}
+          <span class="category">{{ category }}</span>
+          {% endfor %}
+        </span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -18,16 +23,14 @@ layout: default
     {% endfor %}
   </ul>
 
-  <h2 class="page-heading">Categorias</h2>
-  <ul class="post-list">
-    {% for category in site.categories %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ category.first | prepend: '/' | prepend: site.baseurl }}">{{ category | first }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <h2 class="page-heading">Categorías</h2>
+  <div class="categories-list"/>
+  {% for category in site.categories %}
+    <span class="category">
+      <a href="{{ category.first | prepend: '/' | prepend: site.baseurl }}">{{ category | first }}</a>
+    </span>
+  {% endfor %}
+  </div>
 
   <p class="rss-subscribe">Suscríbete <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
