@@ -8,7 +8,7 @@ Esta guía resume las necesidades del estudiante para poder comenzar con los eje
 
 # Instalación
 
-Si bien la programación va más allá del uso de una computadora, necesitamos aquella **herramiento** que hará que la computadora pueda entender los *algoritmos* que programaremos. Lo único que necesitamos es un programa que lea el _lenguaje de programación C++_.
+Si bien la programación va más allá del uso de una computadora, necesitamos aquella **herramienta** que hará que la computadora pueda entender los *algoritmos* que programaremos. Lo único que necesitamos es un programa que lea el _lenguaje de programación C++_.
 
 ## Windows
 
@@ -54,23 +54,24 @@ int main(){
 Siempre que comiences un programa copia el código anterior para luego modificarlo.
 
 ### Algoritmo
-Un algoritmo es un conjunto de pasos estructurados, que recibe una entrada y genera una salida.
 
+Un algoritmo es una secuencia de pasos estructurados para resolver un problema. Para ello, recibe unos datos de entrada y genera una salida.
 
-## Tipos
-El lenguaje de programación C++ necesita que se indique que _tipo_ de variable vamos a usar, las siguientes son las más comunes:
+## Variable
+
+Una _variable_ almacena datos o valores bajo un identificador o nombre.
+
+### Tipos
+
+El lenguaje de programación C++ requiere que se indique que _tipo_ de variable vamos a usar, las siguientes son las más comunes:
 
 - `int`: números enteros (ejem: `1, 123, 0, -20, -4454243`).
 - `float`: números con decimales (ejem: `1.0, 0.0, 53.2, -421.53225`).
 - `char`: cualquier letra o símbolo en texto (ejem: `'a', '_', ' ', 'z', '6', '*'`), siempre van entre comillas simples.
-- `string`: conjunto de `char`s (ejem: ``"hola", "1233", "frase con espacios"`), siempre van entre comillas dobles.
+- `string`: secuencia de `char`s (ejem: `"hola", "1233", "frase con espacios"`), siempre van entre comillas dobles.
 - `bool`: `true` o `false`, para indicar verdad o falsedad respectivamente.
 
 Los tipos siempre van antes de las **variable**s.
-
-## Variable
-
-Casi siempre necesitamos almacenar un valor, para lo cual utilizamos una _variable_ (de algun tipo).
 
 ###### Ejemplo 1:
 
@@ -111,7 +112,7 @@ Aqui podemos darnos cuenta que el resultado de `terrible_mentira` es `false` y `
 
 
 ## Operadores
-Los utilizamos todo el tiempo para interactuar con variables y valores.
+Los utilizamos todo el tiempo para interactuar con variables y modificar los valores que almacenan.
 
 #### Asignación:
 Asigna un `valor` a una `variable`. Se utiliza el signo `=`.
