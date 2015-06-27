@@ -18,12 +18,12 @@ layout: default
     {% endfor %}
   </ul>
 
-  <h2 class="page-heading">Categorias</h1>
+  <h2 class="page-heading">Categorias</h2>
   <ul class="post-list">
     {% for category in site.categories %}
       <li>
         <h2>
-          <a class="post-link" href="/{{category/first}}">{{ category | first }}</a>
+          <a class="post-link" href="{{ category.first | prepend: '/' | prepend: site.baseurl }}">{{ category | first }}</a>
         </h2>
       </li>
     {% endfor %}
