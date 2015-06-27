@@ -234,11 +234,11 @@ if (x < 100) {
 }
 ```
 
-En el ejemplo anterior, el mensaje `"x es menor que 100"` es impreso si `x < 100` es `true`, lo que quiere decir que la variable `x` debe contener un valor menor que 100.
+En el ejemplo anterior, el mensaje `"x es menor que 100"` es impreso si `x < 100` es `true`, lo que quiere decir que la variable `x` debe contener un valor menor que `100`.
 
 <br />  
 
-También se puede utilizar la siguiente sintaxis para especificar que hacer si una `condición` **NO** se satisface. usando la palabra `else`:
+También se puede utilizar la siguiente sintaxis para especificar que hacer si una `condición` **NO** se satisface. Usando la palabra `else`:
 
 ``` cpp
 if (condicion) {
@@ -318,4 +318,4 @@ El anterior ejemplo ejecuta lo mismo que el ejemplo de `while`, pero de una mane
 
 ---
 
-Con esto ya puedes estar listo para programar algunos problemas simples, asi que ahora solo resuelve los problemas y diviertete aprendiendo cada dia más. A programar!!!!
+Con esto ya puedes estar listo para programar algunos problemas simples. Así que ahora solo resuelve los problemas y diviértete aprendiendo cada dia más. A programar!!!!
