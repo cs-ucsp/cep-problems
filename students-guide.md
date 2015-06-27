@@ -75,19 +75,19 @@ Los tipos siempre van antes de las **variable**s.
 
 ###### Ejemplo 1:
 
-    int variable1 = 542
+    int variable1 = 542;
 
 En el ejemplo anterior hemos creado una _variable_ llamada `variable1`, del tipo `int` con el valor `542`.
 
 ###### Ejemplo 2:
 
-    string variable2 = "mi frase favorita"
+    string variable2 = "mi frase favorita";
 
 En el ejemplo anterior hemos creado una _variable_ llamada `variable2` del tipo `string` con el valor `"mi frase favorita"`.
 
 ###### Ejemplo 3:
 
-    bool variable3 = true
+    bool variable3 = true;
 
 En el ejemplo anterior hemos creado una _variable_ llamada `variable3` del tipo `bool` con el valor `true`.
 
