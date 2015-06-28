@@ -1,17 +1,15 @@
 ---
 layout: post
-title:  "Juego de conteo de jardin"
-category: easy
+title:  "Juego de conteo de jardín"
+categories: medio implementación
 ---
 
 
-## Problema
+Todo el mundo se sientan en un círculo. ¿De acuerdo? Oídme atentamente.
 
-Todo el mundo se sientan en un círculo. De acuerdo? Oídme atentamente.
+"_Woooooo, you scwewy wabbit!_"
 
-" Woooooo, you scwewy wabbit! "
-
-Ahora, podría alguien decirme cuántas palabras acabo de decir?
+Ahora, ¿podría alguien decirme cuántas palabras acabo de decir?
 
 ### Entrada y Salida
 
@@ -23,17 +21,14 @@ Su programa debe contar palabras por cada línea de entrada. Cada número de pal
 
 ### Entrada
 
-Meep Meep!
-
-I tot I taw a putty tat.
-
-I did! I did! I did taw a putty tat.
-
-Shsssssssssh ... I am hunting wabbits. Heh Heh Heh Heh ...
+    Meep Meep!
+    I tot I taw a putty tat.
+    I did! I did! I did taw a putty tat.
+    Shsssssssssh ... I am hunting wabbits. Heh Heh Heh Heh ...
 
 ### Salida
 
-2  
-7  
-10  
-9  
+    2  
+    7  
+    10  
+    9  
