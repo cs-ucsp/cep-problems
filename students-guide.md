@@ -8,7 +8,7 @@ Esta guía resume las necesidades del estudiante para poder comenzar con los eje
 
 # Instalación
 
-Si bien la programación va más allá del uso de una computadora, necesitamos aquella **herramiento** que hará que la computadora pueda entender los *algoritmos* que programaremos. Lo único que necesitamos es un programa que lea el _lenguaje de programación C++_.
+Si bien la programación va más allá del uso de una computadora, necesitamos aquella **herramienta** que hará que la computadora pueda entender los *algoritmos* que programaremos. Lo único que necesitamos es un programa que lea el _lenguaje de programación C++_.
 
 ## Windows
 

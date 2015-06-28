@@ -4,7 +4,8 @@ email: raul.gallegos@ucsp.edu.pe
 description: > # this means to ignore newlines until "baseurl:"
   Base de datos de problemas para el Concurso Escolar de Programación UCSP,
   para entrenamiento de los alumnos y tutores.
-url: "http://cs.ucsp.edu.pe/aprende" # the base hostname & protocol for your site
+url: "http://cs.ucsp.edu.pe" # the base hostname & protocol for your site
+baseurl: "/aprende"
 
 # Build settings
 markdown: redcarpet

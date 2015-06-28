@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cuadrado perfecto"
-category: easy
+categories: fácil matemática
 ---
 
 ## Problema
@@ -9,7 +9,7 @@ category: easy
 Un número cuadrado perfecto en matemáticas, o un número cuadrado, es un número entero que es el 
 cuadrado de algún otro; dicho de otro modo, es un número cuya raíz cuadrada es un número entero.
 
-Ej: 
+Ejemplo: 
     
 - 16 es un cuadrado perfecto pues su raiz cuadrada es 4
 - 9 es un cuadrado perfecto pues su raiz cuadrada es 3
@@ -18,36 +18,31 @@ Ej:
 
 ### Entrada
 
-La primera línea contiene un entero _t_, el número de casos de prueba.
-Cada caso de prueba contiene una línea con un número _n_  que indica el número que se verificará como
+La primera línea contiene un entero $t$, el número de casos de prueba.
+Cada caso de prueba contiene una línea con un número $n$  que indica el número que se verificará como
 cuadrado perfecto o no.
 
 ### Salida
 
-Por cada caso debes imprimir una línea con la respuesta, _Si_ si el caso de prueba 
-es un cuadrado perfecto o _No_ si no lo es
+Por cada caso debes imprimir una línea con la respuesta, `Si` si el caso de prueba 
+es un cuadrado perfecto o `No` si no lo es
 
 ### Restricciones
 
-_n_ / _n_ >= 1
+$1 \leq n \leq 10^9$
 
 ## Ejemplo
 
 ### Entrada
 
-3
-
-16
-
-9
-
-3
+    3
+    16
+    9
+    3
 
 ### Salida
 
 
-Si
-
-Si
-
-No
+    Si
+    Si
+    No
