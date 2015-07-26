@@ -38,8 +38,9 @@ Sigue los siguientes enlaces para seguir aprendiendo:
 
 1. [Variables]({{ site.baseurl }}/guide/variables.html)
 2. [Operadores]({{ site.baseurl }}/guide/operators.html)
-2. [Declaraciones Condicionales]({{ site.baseurl }}/guide/conditionals.html)
-2. [Declaraciones Iterativas]({{ site.baseurl }}/guide/iterative.html)
+3. [Declaraciones Condicionales]({{ site.baseurl }}/guide/conditionals.html)
+4. [Declaraciones Iterativas]({{ site.baseurl }}/guide/iterative.html)
+5. [Vectores]({{ site.baseurl }}/guide/vectors.html)
 
 ---
 

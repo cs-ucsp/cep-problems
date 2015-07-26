@@ -30,10 +30,29 @@ En cada clase que daremos, por favor abre el anterior programa (**Quincy**) para
 
 <br />
 
-### Linux y Mac OSX
+## Linux y Mac OSX
 
 Si usas Windows ignora esta sección. No hay necesidad de instalación extra en Linux o Mac OSX.
 
 <br />
+
+## Activando C++11
+
+### Codeblocks
+
+1. Ir al menú `Settings` -> `Compiler...`
+2. En la pestaña `Compiler Flags`, activa la opción que dice:
+
+        Have g++ follow the C++11 ISO C++ language standard [-std=c++11]
+
+    Nota: el mensaje puede variar un poco dependendiendo de tu versión.
+
+3. Da click en OK
+
+### Linux (g++)
+
+Cuando compiles, añade la opción `-std=c++11`. Ejemplo:
+
+    g++ archivo.cpp -std=c++11 -o ejecutable
 
 [← Regresar]({{ site.baseurl }}/guide/)
