@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dibujando triángulos"
-categories: medio implementación
+categories: fácil implementación
 ---
 
 Los gráficos por computadora vienen revolucionando la industria del cine y del
